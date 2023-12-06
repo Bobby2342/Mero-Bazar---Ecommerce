@@ -1,0 +1,41 @@
+/* Style for the carousel container */
+.carousel-inner.products {
+    position: relative;
+}
+
+/* Style for each carousel item */
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+/* Style for the slide image */
+.carousel-item img.slide-image {
+    width: 100%; /* Adjust the width as needed */
+    height: 600px; /* Maintain aspect ratio */
+}
+
+/* Style for the carousel caption */
+.carousel-item .class-carousel-caption {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Position the caption in the center */
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color and transparency */
+    padding: 10px 20px; /* Adjust padding */
+    color: #fff; /* Text color */
+}
+
+.carousel-item .class-carousel-caption h1 {
+    font-size: 24px; /* Adjust the heading font size */
+    margin-bottom: 5px; /* Adjust spacing */
+}
+
+.carousel-item .class-carousel-caption p {
+    font-size: 16px; /* Adjust the paragraph font size */
+    margin-bottom: 0; /* Remove default margin */
+}
